@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Rick and Morty Character Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web desarrollada en React que permite visualizar y buscar personajes de la serie animada "Rick and Morty". Utiliza la Rick and Morty API para obtener datos actualizados de los personajes.
 
-## Available Scripts
+## Objetivo
 
-In the project directory, you can run:
+El objetivo principal de este proyecto es proporcionar una experiencia interactiva donde los usuarios puedan explorar diferentes personajes de la serie, filtrarlos por nombre y ver detalles importantes como su estado, especie y género.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Visualización de Personajes:** Muestra una lista de personajes con su nombre, imagen, estado, especie y género.
+  
+- **Búsqueda en Tiempo Real:** Permite buscar personajes por nombre en tiempo real, filtrando la lista de resultados a medida que se escribe en el campo de búsqueda.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Estados Visuales Dinámicos:** Los personajes tienen estilos visuales dinámicos basados en su estado (vivo, muerto, desconocido), género (masculino, femenino, desconocido) y especie (humanoide, alienígena, desconocido).
 
-### `npm test`
+## Tecnologías Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: Biblioteca de JavaScript para construir interfaces de usuario.
+- React Bootstrap: Framework de UI basado en Bootstrap para React.
+- Axios: Cliente HTTP para realizar peticiones a la Rick and Morty API.
 
-### `npm run build`
+## Instalación y Uso
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clona este repositorio en tu máquina local usando Git:
+ 
+Claro, aquí tienes un ejemplo de cómo podría ser un archivo README.md para un proyecto en GitHub, donde se explica de qué trata el proyecto y que está diseñado para aprender React:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+markdown
+Copiar código
+# Rick and Morty Character Viewer
 
-### `npm run eject`
+Este proyecto es una aplicación web desarrollada en React que permite visualizar y buscar personajes de la serie animada "Rick and Morty". Utiliza la Rick and Morty API para obtener datos actualizados de los personajes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Objetivo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+El objetivo principal de este proyecto es proporcionar una experiencia interactiva donde los usuarios puedan explorar diferentes personajes de la serie, filtrarlos por nombre y ver detalles importantes como su estado, especie y género.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Funcionalidades
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Visualización de Personajes:** Muestra una lista de personajes con su nombre, imagen, estado, especie y género.
+  
+- **Búsqueda en Tiempo Real:** Permite buscar personajes por nombre en tiempo real, filtrando la lista de resultados a medida que se escribe en el campo de búsqueda.
 
-## Learn More
+- **Estados Visuales Dinámicos:** Los personajes tienen estilos visuales dinámicos basados en su estado (vivo, muerto, desconocido), género (masculino, femenino, desconocido) y especie (humanoide, alienígena, desconocido).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tecnologías Utilizadas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React: Biblioteca de JavaScript para construir interfaces de usuario.
+- React Bootstrap: Framework de UI basado en Bootstrap para React.
+- Axios: Cliente HTTP para realizar peticiones a la Rick and Morty API.
 
-### Code Splitting
+## Instalación y Uso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-### Analyzing the Bundle Size
+1. Clona este repositorio en tu máquina local usando Git:
+git clone https://github.com/Jhosue-guevara/project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Entra al directorio del proyecto:
+cd project
 
-### Making a Progressive Web App
+3. Instala las dependencias usando npm o yarn:
+   npm install  o yarn install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Inicia la aplicación:
+npm start o yarn start
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
